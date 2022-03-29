@@ -1,6 +1,6 @@
 package lv1;
 
-public class Lv1_음양더하기 {
+public class Solution {
 	public int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
         
