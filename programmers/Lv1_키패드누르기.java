@@ -1,6 +1,6 @@
 package lv1;
 
-public class Lv1_키패드누르기 {
+public class Solution {
 	public String solution(int[] numbers, String hand) {
         String answer = "";
         
