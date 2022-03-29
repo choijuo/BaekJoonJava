@@ -1,10 +1,10 @@
 package lv1;
 
-public class Lv1_없는숫자더하기 {
+public class Solution {
 	public int solution(int[] numbers) {
         int answer = 0;        
         
-        //0~9 합 : 45
+        //0~9 횉횛 : 45
         
         for(int i:numbers)
             answer+=i;
