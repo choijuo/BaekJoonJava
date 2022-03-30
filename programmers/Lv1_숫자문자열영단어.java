@@ -1,6 +1,6 @@
 package lv1;
 
-public class Lv1_숫자문자열영단어 {
+public class Solution {
 	public int solution(String s) {
         
         int answer = 0;

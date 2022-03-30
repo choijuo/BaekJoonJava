@@ -1,6 +1,6 @@
 package lv1;
 import java.util.*;
-public class Lv1_신고결과받기 {
+public class Solution {
 	public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
         Map<String,Integer> userMap=new HashMap<>();

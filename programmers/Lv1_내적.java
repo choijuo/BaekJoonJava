@@ -1,6 +1,6 @@
 package lv1;
 
-public class Lv1_³»Àû {
+public class Solution {
 	public int solution(int[] a, int[] b) {
         int answer = 0;
         

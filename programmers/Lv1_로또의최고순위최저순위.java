@@ -1,12 +1,12 @@
 package lv1;
 
 import java.util.*;
-public class Lv1_·Î¶ÇÀÇÃÖ°í¼øÀ§ÃÖÀú¼øÀ§ {
+public class Solution {
     public int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = {0,0};
         int zeroCnt=0;
         int same=0;
-        Arrays.sort(lottos);//¿À¸§Â÷¼ø
+        Arrays.sort(lottos);//ì˜¤ë¦„ì°¨ìˆœ
         Arrays.sort(win_nums);
 
         //0 0 1 25 31 44
@@ -30,8 +30,8 @@ public class Lv1_·Î¶ÇÀÇÃÖ°í¼øÀ§ÃÖÀú¼øÀ§ {
             }
         }
         
-        int min=same;//2°³ÀÏÄ¡
-        int max=same+zeroCnt;//4°³ÀÏÄ¡(0ÀÇ°³¼ö°¡ µÑ´Ù ¸Â´Â´Ù°í °¡Á¤ÇÒ¶§ °¡Àå¸¹Àº ÀÏÄ¡ ex)4
+        int min=same;//2ê°œì¼ì¹˜
+        int max=same+zeroCnt;//4ê°œì¼ì¹˜(0ì˜ê°œìˆ˜ê°€ ë‘˜ë‹¤ ë§ëŠ”ë‹¤ê³  ê°€ì •í• ë•Œ ê°€ì¥ë§ì€ ì¼ì¹˜ ex)4
         System.out.println(min+"/"+max);
         
         /*

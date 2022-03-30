@@ -2,7 +2,7 @@ package lv1;
 
 //import java.util.HashMap;
 import java.util.*;
-public class Lv1_¿ÏÁÖÇÏÁö¸øÇÑ¼±¼öHash {
+public class Solution {
 	public String solution(String[] participant,String[] completion) {
 		String answer="";
 		HashMap<String, Integer> hm=new HashMap<>();
@@ -32,7 +32,7 @@ public class Lv1_¿ÏÁÖÇÏÁö¸øÇÑ¼±¼öHash {
 		String []participant= {"mislav","stanko","mislav","ana"};
 		String []completion= {"stanko","ana","mislav"};
 		
-		Lv1_¿ÏÁÖÇÏÁö¸øÇÑ¼±¼öHash ph=new Lv1_¿ÏÁÖÇÏÁö¸øÇÑ¼±¼öHash();
+		Lv1_ì™„ì£¼í•˜ì§€ëª»í•œì„ ìˆ˜Hash ph=new Lv1_ì™„ì£¼í•˜ì§€ëª»í•œì„ ìˆ˜Hash();
 		ph.solution(participant, completion);
 
 	}

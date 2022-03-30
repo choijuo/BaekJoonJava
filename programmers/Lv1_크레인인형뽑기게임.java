@@ -1,6 +1,6 @@
 package lv1;
 import java.util.*;
-public class Lv1_Å©·¹ÀÎÀÎÇü»Ì±â°ÔÀÓ {
+public class Solution {
 	public int solution(int[][] board, int[] moves) {
         int answer = 0;
         
@@ -8,11 +8,11 @@ public class Lv1_Å©·¹ÀÎÀÎÇü»Ì±â°ÔÀÓ {
         
         for(int i=0;i<moves.length;i++){
             for(int j=0;j<board.length;j++){
-                if(board[j][moves[i]-1]!=0){//0ÀÌ ¾Æ´Ñ°æ¿ì : »ÌÀ» ÀÚ¸®¿¡ ÀÎÇüÀÌ Á¸ÀçÇÑ´Ù¸é
-                    if(!stack.isEmpty() && board[j][moves[i]-1] == stack.peek()){//½ºÅÃ¿¡ Áßº¹µÇ´Â °æ¿ì
+                if(board[j][moves[i]-1]!=0){//0ì´ ì•„ë‹Œê²½ìš° : ë½‘ì„ ìë¦¬ì— ì¸í˜•ì´ ì¡´ì¬í•œë‹¤ë©´
+                    if(!stack.isEmpty() && board[j][moves[i]-1] == stack.peek()){//ìŠ¤íƒì— ì¤‘ë³µë˜ëŠ” ê²½ìš°
                         answer+=2;
-                        stack.pop();//½ºÅÃ¿¡¼­ »èÁ¦
-                    }else{//½ºÅÃ¿¡ Áßº¹¾ÈµÇ´Â °æ¿ì add
+                        stack.pop();//ìŠ¤íƒì—ì„œ ì‚­ì œ
+                    }else{//ìŠ¤íƒì— ì¤‘ë³µì•ˆë˜ëŠ” ê²½ìš° add
                         stack.add(board[j][moves[i]-1]);
                     }
                     board[j][moves[i]-1]=0;

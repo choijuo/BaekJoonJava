@@ -1,5 +1,5 @@
 package lv1;
-public class Lv1_신규아이디추천 {
+public class Solution {
 	public String solution(String new_id) {
         String answer = "";
         
