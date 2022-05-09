@@ -1,6 +1,6 @@
 package lv1;
 
-//lv1 3Áø¹ý µÚÁý±â
+//lv1 3ì§„ë²• ë’¤ì§‘ê¸°
 public class Lv1_ternary {
 	public int solution(int n) {
         int answer = 0;
